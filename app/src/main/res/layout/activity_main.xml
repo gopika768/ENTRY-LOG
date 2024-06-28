@@ -32,7 +32,8 @@
         android:layout_height="wrap_content"
         android:text="LOGIN"
         android:id="@+id/lid"
-        android:background="#4AAAF6"
-        android:layout_margin="30px"/>
+        android:background="#458CF8"
+        android:layout_margin="30px"
+        android:textColor="@color/white"/>
 
 </LinearLayout>
