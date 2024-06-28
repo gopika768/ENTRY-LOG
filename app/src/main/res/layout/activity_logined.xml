@@ -1,0 +1,62 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="40px"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9BD2EB"
+        android:textColor="@color/black"
+        android:hint="Enter Name"
+        android:id="@+id/sname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADMISSION NUMBER"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9BD2EB"
+        android:textColor="@color/black"
+        android:hint="Enter Your Admission Number"
+        android:id="@+id/saddno"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYSTEM NUMBER"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9BD2EB"
+        android:textColor="@color/black"
+        android:hint="Enter Your System Number"
+        android:id="@+id/ssysno"
+        android:inputType="number"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40px"
+        android:text="ADD"
+        android:background="#458CF8"
+        android:textColor="@color/white"
+        android:id="@+id/slog"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40px"
+        android:text="LOGOUT"
+        android:background="#458CF8"
+        android:textColor="@color/white"
+        android:id="@+id/sback"/>
+
+
+</LinearLayout>
