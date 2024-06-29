@@ -5,6 +5,7 @@
     android:padding="40px"
     android:orientation="vertical"
     android:textAlignment="center"
+    android:background="#D8F1F4"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView
         android:layout_width="match_parent"
@@ -13,10 +14,11 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9BD2EB"
         android:textColor="@color/black"
         android:hint="Enter Name"
-        android:id="@+id/sname"/>
+        android:id="@+id/sname"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,11 +26,27 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9BD2EB"
+        android:background="@color/white"
+
         android:textColor="@color/black"
         android:hint="Enter Your Admission Number"
         android:id="@+id/saddno"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_school_24"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEPARTMENT NAME"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:hint="Enter Your Department Name"
+        android:id="@+id/sdepname"
+        android:drawableLeft="@drawable/baseline_groups_24"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,11 +54,13 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9BD2EB"
+
+        android:background="@color/white"
         android:textColor="@color/black"
         android:hint="Enter Your System Number"
         android:id="@+id/ssysno"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:drawableLeft="@drawable/baseline_computer_24"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

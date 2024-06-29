@@ -5,6 +5,10 @@
     android:orientation="vertical"
     android:textAlignment="center"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="403px"
+        android:background="@drawable/fi"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,7 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="ENTER YOUR USER NAME"
-        android:id="@+id/uname"/>
+        android:id="@+id/uname"
+        android:drawableLeft="@drawable/baseline_person_24"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +31,8 @@
         android:layout_height="wrap_content"
         android:hint="ENTER YOUR PASSWORD"
         android:inputType="textPassword"
-        android:id="@+id/pass"/>
+        android:id="@+id/pass"
+        android:drawableLeft="@drawable/baseline_lock_24"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
